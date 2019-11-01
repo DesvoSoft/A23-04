@@ -4,7 +4,8 @@
 <html> 
   <head> <!-- Aqui va informacion importante del sitio, nombre, propietario y cosillas
  varias que son importantes para la pagina -->
-    <tittle>We'll Be Coming Back!</tittle>
+    <title>We'll Be Coming Back!</title>
+    <meta charset="UTF-8">
     <meta name="description" content="Aprendiendo con Karo">
     <meta name="author" content="Karolay S., Johan V.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +15,25 @@
    Aca voy a hacer algo loco, es una mala practica de programacion pero es para que quede mas
    bonito, colocare la hoja de estilos, CSS que es otro lenguaje, adentro de html, mira-->
     
-    <!-- Aca empieza CSS-->
+    <!-- Aca empieza CSS
     <style>
       body{background-color: #90cc55;}
       h1{color: #012959;}
       h3{color: #5c0185;}
       p{color: white;}
-    </style>
+    </style> Pero ahora lo cambie a una hoja de estilos mas formal-->
     <!-- Aqui termino y puse la etique de cierre que se indica con el slash -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlazo el html con el archivo externo de CSS -->
     
 	</head>
+  <header> 
+    <div id="0">
+      <ul>
+  <li><a href="default.asp">Inicio</a></li>
+  <li><a href="news.asp">Opciones</a></li>
+  <li><a href="contact.asp">Pastel</a></li>
+  <li style="float:right"><a class="active" href="#about">?</a></li>
+</ul></div></header>
   <body>
     <h1>Thinking About You</h1> <!--h1 etiqueta de titulo, hay mas como h2 h3 h4-->
     <br><br> <!-- br es como para saltar a la linea de abajo  -->
