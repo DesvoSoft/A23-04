@@ -27,12 +27,10 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-	
-  /*IMPORTANTE*/
-  height: 100px;
-  position: absolute;
   top: 50%;
   margin-top: -50px;
+	margin-right:25%;
+	margin-left:25%;
 }
 
 
