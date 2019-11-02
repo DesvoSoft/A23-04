@@ -4,7 +4,7 @@ body {
 h1{
   text-align:center;
   color:#4c2db1;
-  font-family:Arial Black;
+  font-family:Verdana;
 }
    
 .video-container {
@@ -23,7 +23,11 @@ h1{
 	height:100%;
 }
 
-
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 ul {
@@ -32,7 +36,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-family: Comic Sans MS;
+  font-family: ;
   font-weight: bold;
   color:#d80d56;
 }
