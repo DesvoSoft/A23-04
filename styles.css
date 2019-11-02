@@ -24,8 +24,8 @@ h1{
 }
 
 .centrado {
-  display: flex;
-  justify-content: center;
+  display: block;
+  /*justify-content: center;*/
   align-items: center;
 }
 
