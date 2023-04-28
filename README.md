@@ -1,9 +1,15 @@
-# rushcode
+# Dummy repository
 
-Pagina web en desarrollo con propósito de aprendizaje
+Pagina web en desarrollo con propósitos de aprendizaje
 
+## Objetivo principal
 
+Practicar el control de versiones de git de forma remota.
 
-*La hoja de estilos se encuentra en el archivo "styles.css"
+## Objetivos secundarios
 
-*Fondo de la página se llama "bg.jpg"
+Practicar y aplicar conocimientos previos y nuevos en diferentes temas, con enfoque en **frontend**.
+
+**Fondo:** 'assets/images/bg.jpg'
+
+![Background Image](./assets/images/bg.jpg)
